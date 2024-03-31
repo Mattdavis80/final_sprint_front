@@ -1,0 +1,64 @@
+* {
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+.links {
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: rgb(52, 72, 228);
+}
+
+.intro-text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+.input-large {
+  width: 40%;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 1rem;
+  margin: 10px;
+  display: block;
+}
+
+.button-large {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button-large:hover {
+  background-color: #0056b3;
+}
+
+.link-item {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.link-id {
+  font-weight: bold;
+}
